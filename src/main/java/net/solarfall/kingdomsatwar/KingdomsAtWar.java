@@ -33,6 +33,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.solarfall.kingdomsatwar.item.ModItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(KingdomsAtWar.MOD_ID)
@@ -65,6 +66,8 @@ public class KingdomsAtWar {
     //             output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
     //         }).build());
 
+
+
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public KingdomsAtWar(IEventBus modEventBus, ModContainer modContainer)
@@ -84,6 +87,9 @@ public class KingdomsAtWar {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        // Register items
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -98,7 +104,10 @@ public class KingdomsAtWar {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.VITARIUM_DUST);
+            event.accept(ModItems.VITARIUM_INGOT);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
