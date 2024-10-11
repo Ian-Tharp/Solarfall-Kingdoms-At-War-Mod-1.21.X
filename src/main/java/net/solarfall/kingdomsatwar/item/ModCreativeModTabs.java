@@ -36,6 +36,7 @@ public class ModCreativeModTabs {
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModBlocks.VITARIUM_ORE);
                 output.accept(ModBlocks.VITARIUM_BLOCK);
+                output.accept(ModBlocks.VITARIUM_DEEPSLATE_ORE);
             })
         .build()
     );

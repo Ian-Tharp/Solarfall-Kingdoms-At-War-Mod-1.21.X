@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "kingdomsatwar:vitarium_block",
+        "kingdomsatwar:vitarium_ore",
+        "kingdomsatwar:vitarium_deepslate_ore"
+    ]
+}

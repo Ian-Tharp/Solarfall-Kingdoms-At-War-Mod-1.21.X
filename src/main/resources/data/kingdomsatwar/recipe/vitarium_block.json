@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "V": {
+            "item": "kingdomsatwar:vitarium_ingot"
+        }
+    },
+    "pattern": [
+        "VVV",
+        "VVV",
+        "VVV"
+    ],
+    "result": {
+        "id": "kingdomsatwar:vitarium_block",
+        "count": 1
+    }
+}

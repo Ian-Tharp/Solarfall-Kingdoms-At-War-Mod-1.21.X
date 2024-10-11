@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.7,
+    "group": "vitarium",
+    "ingredient": {
+        "item": "kingdomsatwar:vitarium_ore"
+    },
+    "result": {
+        "id": "kingdomsatwar:vitarium_ingot",
+        "count": 1
+    }
+}
