@@ -33,6 +33,8 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.solarfall.kingdomsatwar.block.ModBlocks;
+import net.solarfall.kingdomsatwar.item.ModCreativeModTabs;
 import net.solarfall.kingdomsatwar.item.ModItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -87,8 +89,12 @@ public class KingdomsAtWar {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        // Register creative tabs
+        ModCreativeModTabs.register(modEventBus);
         // Register items
         ModItems.register(modEventBus);
+        // Register blocks
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -107,6 +113,11 @@ public class KingdomsAtWar {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.VITARIUM_DUST);
             event.accept(ModItems.VITARIUM_INGOT);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.VITARIUM_ORE);
+            event.accept(ModBlocks.VITARIUM_BLOCK);
         }
     }
 
