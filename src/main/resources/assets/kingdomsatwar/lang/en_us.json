@@ -2,6 +2,9 @@
   "item.kingdomsatwar.vitarium_dust": "Vitarium Dust",
   "item.kingdomsatwar.vitarium_ingot": "Vitarium Ingot",
   "item.kingdomsatwar.chisel": "Chisel",
+  "item.kingdomsatwar.radish": "Radish",
+  "item.kingdomsatwar.frostfire_ice": "Frostfire Ice",
+  "item.kingdomsatwar.starlight_ashes": "Starlight Ashes",
 
   "block.kingdomsatwar.vitarium_ore": "Vitarium Ore",
   "block.kingdomsatwar.vitarium_deepslate_ore": "Vitarium Deepslate Ore",
@@ -9,6 +12,12 @@
   "block.kingdomsatwar.magic_block": "Magic Block",
 
   "creativetab.kingdoms_at_war.kingdoms_at_war_items": "Kingdoms At War Items",
-  "creativetab.kingdoms_at_war.kingdoms_at_war_blocks": "Kingdoms At War Blocks"
+  "creativetab.kingdoms_at_war.kingdoms_at_war_blocks": "Kingdoms At War Blocks",
+
+  "tooltip.kingdomsatwar.magic_block.tooltip": "This block is very §9magical§r!",
+
+  "tooltip.kingdomsatwar.chisel.shift_down": "This item can chisel Blocks into Bricks",
+  "tooltip.kingdomsatwar.chisel": "Press §eShift§r for more info",
+  "tooltip.kingdomsatwar.radish.tooltip": "A radish is a root vegetable that is often used in cooking."
 }
 

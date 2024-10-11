@@ -24,6 +24,9 @@ public class ModCreativeModTabs {
                 output.accept(ModItems.VITARIUM_INGOT);
                 output.accept(ModItems.VITARIUM_DUST);
                 output.accept(ModItems.CHISEL);
+                output.accept(ModItems.RADISH);
+                output.accept(ModItems.FROSTFIRE_ICE);
+                output.accept(ModItems.STARLIGHT_ASHES);
             })
         .build()
     );
