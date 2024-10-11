@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.VITARIUM_INGOT);
                 output.accept(ModItems.VITARIUM_DUST);
+                output.accept(ModItems.CHISEL);
             })
         .build()
     );
@@ -35,8 +36,8 @@ public class ModCreativeModTabs {
             .title(Component.translatable("creativetab.kingdoms_at_war.kingdoms_at_war_blocks"))
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModBlocks.VITARIUM_ORE);
-                output.accept(ModBlocks.VITARIUM_BLOCK);
                 output.accept(ModBlocks.VITARIUM_DEEPSLATE_ORE);
+                output.accept(ModBlocks.VITARIUM_BLOCK);
             })
         .build()
     );
