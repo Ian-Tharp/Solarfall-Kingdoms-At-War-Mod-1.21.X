@@ -1,5 +1,7 @@
 {
     "variants": {
-        "": { "model": "kingdomsatwar:block/vitarium_ore" }
+        "": { 
+            "model": "kingdomsatwar:block/vitarium_ore"
+        }
     }
 }

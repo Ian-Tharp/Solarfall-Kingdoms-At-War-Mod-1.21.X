@@ -38,6 +38,7 @@ public class ModCreativeModTabs {
                 output.accept(ModBlocks.VITARIUM_ORE);
                 output.accept(ModBlocks.VITARIUM_DEEPSLATE_ORE);
                 output.accept(ModBlocks.VITARIUM_BLOCK);
+                output.accept(ModBlocks.MAGIC_BLOCK);
             })
         .build()
     );

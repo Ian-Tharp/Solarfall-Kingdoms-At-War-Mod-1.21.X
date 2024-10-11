@@ -14,6 +14,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.solarfall.kingdomsatwar.KingdomsAtWar;
+import net.solarfall.kingdomsatwar.block.custom.MagicBlock;
 import net.solarfall.kingdomsatwar.item.ModItems;
 
 public class ModBlocks {
@@ -42,6 +43,13 @@ public class ModBlocks {
             .strength(4f)
             .requiresCorrectToolForDrops()
             .sound(SoundType.STONE)
+        )
+    );
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+        () -> new MagicBlock(BlockBehaviour.Properties.of()
+            .strength(2f)
+            .requiresCorrectToolForDrops()
         )
     );
 
