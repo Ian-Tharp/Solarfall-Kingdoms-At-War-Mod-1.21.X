@@ -1,0 +1,13 @@
+{
+  "values": {
+    "kingdomsatwar:frostfire_ice": {
+      "burn_time": 2400
+    },
+    "kingdomsatwar:starlight_ashes": {
+      "burn_time": 1200
+    },
+    "kingdomsatwar:vitarium_dust": {
+      "burn_time": 300
+    }
+  }
+}

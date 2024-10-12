@@ -1,0 +1,5 @@
+// 1.21.1	2024-10-11T17:28:52.1263386	Loot Tables
+de91ed93edf7cff4a05b1a848b4b2f455a0fbe0c data/kingdomsatwar/loot_table/blocks/magic_block.json
+9aecc216d731484fe8bd488d07718929a252f51f data/kingdomsatwar/loot_table/blocks/vitarium_block.json
+355de6d3be575775592bd42cc1b3b10f8438302a data/kingdomsatwar/loot_table/blocks/vitarium_deepslate_ore.json
+c9a3e636b9055f591a4114330aaa1e7932788633 data/kingdomsatwar/loot_table/blocks/vitarium_ore.json

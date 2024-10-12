@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "vitarium_ingot",
+  "ingredient": {
+    "item": "kingdomsatwar:vitarium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "kingdomsatwar:vitarium_ingot"
+  }
+}

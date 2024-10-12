@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kingdomsatwar:vitarium_ingot_from_blasting_vitarium_deepslate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vitarium_deepslate_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kingdomsatwar:vitarium_deepslate_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vitarium_deepslate_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kingdomsatwar:vitarium_ingot_from_blasting_vitarium_deepslate_ore"
+    ]
+  }
+}

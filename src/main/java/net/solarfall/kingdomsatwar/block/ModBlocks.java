@@ -53,13 +53,15 @@ public class ModBlocks {
         )
     );
 
+    
+
+
     //Register a block and its associated item
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
         return toReturn;
     }
-    
 
     //Need to register an item associated with the block
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
