@@ -47,6 +47,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, VITARIUM_SMELTABLES, RecipeCategory.MISC, ModItems.VITARIUM_INGOT.get(), 0.25f, 200, "vitarium_ingot");
         oreBlasting(recipeOutput, VITARIUM_SMELTABLES, RecipeCategory.MISC, ModItems.VITARIUM_INGOT.get(), 0.25f, 100, "vitarium_ingot");
 
+
+        stairBuilder(ModBlocks.VITARIUM_STAIRS.get(), Ingredient.of(ModItems.VITARIUM_INGOT)).group("vitarium")
+            .unlockedBy("has_vitarium", has(ModItems.VITARIUM_INGOT)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.VITARIUM_SLAB.get(), ModItems.VITARIUM_INGOT.get());
+        
+        buttonBuilder(ModBlocks.VITARIUM_BUTTON.get(), Ingredient.of(ModItems.VITARIUM_INGOT.get())).group("vitarium")
+            .unlockedBy("has_vitarium", has(ModItems.VITARIUM_INGOT)).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.VITARIUM_PRESSURE_PLATE.get(), ModItems.VITARIUM_INGOT.get());
+        
+        fenceBuilder(ModBlocks.VITARIUM_FENCE.get(), Ingredient.of(ModItems.VITARIUM_INGOT.get())).group("vitarium")
+            .unlockedBy("has_vitarium", has(ModItems.VITARIUM_INGOT)).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.VITARIUM_FENCE_GATE.get(), Ingredient.of(ModItems.VITARIUM_INGOT.get())).group("vitarium")
+            .unlockedBy("has_vitarium", has(ModItems.VITARIUM_INGOT)).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.VITARIUM_WALL.get(), ModItems.VITARIUM_INGOT.get());
+
+        doorBuilder(ModBlocks.VITARIUM_DOOR.get(), Ingredient.of(ModItems.VITARIUM_INGOT.get())).group("vitarium")
+            .unlockedBy("has_vitarium", has(ModItems.VITARIUM_INGOT.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.VITARIUM_TRAPDOOR.get(), Ingredient.of(ModItems.VITARIUM_INGOT.get())).group("vitarium")
+            .unlockedBy("has_vitarium", has(ModItems.VITARIUM_INGOT.get())).save(recipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

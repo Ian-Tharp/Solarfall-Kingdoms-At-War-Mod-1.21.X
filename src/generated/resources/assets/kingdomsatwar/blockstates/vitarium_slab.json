@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kingdomsatwar:block/vitarium_slab"
+    },
+    "type=double": {
+      "model": "kingdomsatwar:block/vitarium_block"
+    },
+    "type=top": {
+      "model": "kingdomsatwar:block/vitarium_slab_top"
+    }
+  }
+}

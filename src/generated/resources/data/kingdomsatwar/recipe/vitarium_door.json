@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "vitarium",
+  "key": {
+    "#": {
+      "item": "kingdomsatwar:vitarium_ingot"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "kingdomsatwar:vitarium_door"
+  }
+}

@@ -1,3 +1,6 @@
-// 1.21.1	2024-10-11T20:06:21.9629341	Tags for minecraft:block mod id kingdomsatwar
+// 1.21.1	2024-10-12T10:56:32.2414851	Tags for minecraft:block mod id kingdomsatwar
+b1b23e473905cd4ac98053f463076bf60813f16e data/minecraft/tags/block/fences.json
+591ed6eafd5cc71bb8d810932be7c1329f3e7162 data/minecraft/tags/block/fence_gates.json
 d28a12ffb503424b4f868806457fed20540d3cdd data/minecraft/tags/block/mineable/pickaxe.json
 b36599adbbe57caaef28afa01bd373820612d59c data/minecraft/tags/block/needs_iron_tool.json
+5c90d215716f4c2f1ed235bb26b9ed1070dc480b data/minecraft/tags/block/walls.json

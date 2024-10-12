@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "vitarium",
+  "ingredients": [
+    {
+      "item": "kingdomsatwar:vitarium_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kingdomsatwar:vitarium_button"
+  }
+}

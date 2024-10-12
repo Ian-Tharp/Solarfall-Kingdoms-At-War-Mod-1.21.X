@@ -34,7 +34,22 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
             block -> createOreDrop(ModBlocks.VITARIUM_ORE.get(), ModItems.VITARIUM_DUST.get()));
 
         add(ModBlocks.VITARIUM_DEEPSLATE_ORE.get(),
-            block -> createMultipleOreDrops(block, ModItems.VITARIUM_DUST.get(), 1, 2));
+            block -> createMultipleOreDrops(block, ModItems.VITARIUM_DUST.get(), 2, 5));
+
+        dropSelf(ModBlocks.VITARIUM_STAIRS.get());
+        dropSelf(ModBlocks.VITARIUM_FENCE.get());
+        dropSelf(ModBlocks.VITARIUM_FENCE_GATE.get());
+        dropSelf(ModBlocks.VITARIUM_WALL.get());
+
+        add(ModBlocks.VITARIUM_DOOR.get(),
+            block -> createDoorTable(ModBlocks.VITARIUM_DOOR.get()));
+
+        dropSelf(ModBlocks.VITARIUM_TRAPDOOR.get());
+        dropSelf(ModBlocks.VITARIUM_BUTTON.get());
+        dropSelf(ModBlocks.VITARIUM_PRESSURE_PLATE.get());
+
+        add(ModBlocks.VITARIUM_SLAB.get(),
+            block -> createSlabItemTable(ModBlocks.VITARIUM_SLAB.get()));
 
     }
 

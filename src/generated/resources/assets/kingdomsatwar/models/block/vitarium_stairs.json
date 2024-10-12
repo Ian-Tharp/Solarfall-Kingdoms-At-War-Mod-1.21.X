@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "kingdomsatwar:block/vitarium_block",
+    "side": "kingdomsatwar:block/vitarium_block",
+    "top": "kingdomsatwar:block/vitarium_block"
+  }
+}

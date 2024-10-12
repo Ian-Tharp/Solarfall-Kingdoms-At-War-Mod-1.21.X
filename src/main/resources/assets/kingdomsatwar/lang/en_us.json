@@ -11,8 +11,21 @@
   "block.kingdomsatwar.vitarium_block": "Vitarium Block",
   "block.kingdomsatwar.magic_block": "Magic Block",
 
-  "creativetab.kingdoms_at_war.kingdoms_at_war_items": "Kingdoms At War Items",
-  "creativetab.kingdoms_at_war.kingdoms_at_war_blocks": "Kingdoms At War Blocks",
+  "block.kingdomsatwar.vitarium_stairs": "Vitarium Stairs",
+  "block.kingdomsatwar.vitarium_slab": "Vitarium Slab",
+
+  "block.kingdomsatwar.vitarium_fence": "Vitarium Fence",
+  "block.kingdomsatwar.vitarium_fence_gate": "Vitarium Fence Gate",
+  "block.kingdomsatwar.vitarium_wall": "Vitarium Wall",
+
+  "block.kingdomsatwar.vitarium_door": "Vitarium Door",
+  "block.kingdomsatwar.vitarium_trapdoor": "Vitarium Trapdoor",
+
+  "block.kingdomsatwar.vitarium_button": "Vitarium Button",
+  "block.kingdomsatwar.vitarium_pressure_plate": "Vitarium Pressure Plate",
+
+  "creativetab.kingdoms_at_war.kingdoms_at_war_items": "Kingdoms at War Items",
+  "creativetab.kingdoms_at_war.kingdoms_at_war_blocks": "Kingdoms at War Blocks",
 
   "tooltip.kingdomsatwar.magic_block.tooltip": "This block is very §9magical§r!",
 

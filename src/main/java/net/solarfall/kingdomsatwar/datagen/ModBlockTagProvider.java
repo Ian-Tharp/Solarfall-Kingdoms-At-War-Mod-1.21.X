@@ -26,5 +26,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_IRON_TOOL)
             .add(ModBlocks.VITARIUM_DEEPSLATE_ORE.get());
+
+        tag(BlockTags.FENCES).add(ModBlocks.VITARIUM_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.VITARIUM_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.VITARIUM_WALL.get());
     }
 }

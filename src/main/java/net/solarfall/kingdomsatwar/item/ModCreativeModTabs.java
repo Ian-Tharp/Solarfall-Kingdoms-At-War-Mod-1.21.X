@@ -41,7 +41,21 @@ public class ModCreativeModTabs {
                 output.accept(ModBlocks.VITARIUM_ORE);
                 output.accept(ModBlocks.VITARIUM_DEEPSLATE_ORE);
                 output.accept(ModBlocks.VITARIUM_BLOCK);
+                
                 output.accept(ModBlocks.MAGIC_BLOCK);
+
+                output.accept(ModBlocks.VITARIUM_STAIRS);
+                output.accept(ModBlocks.VITARIUM_SLAB);
+
+                output.accept(ModBlocks.VITARIUM_FENCE);
+                output.accept(ModBlocks.VITARIUM_FENCE_GATE);
+                output.accept(ModBlocks.VITARIUM_WALL);
+
+                output.accept(ModBlocks.VITARIUM_DOOR);
+                output.accept(ModBlocks.VITARIUM_TRAPDOOR);
+
+                output.accept(ModBlocks.VITARIUM_BUTTON);
+                output.accept(ModBlocks.VITARIUM_PRESSURE_PLATE);
             })
         .build()
     );
