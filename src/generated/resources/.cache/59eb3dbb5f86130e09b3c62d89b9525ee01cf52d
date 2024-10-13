@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-12T10:56:32.2444838	Loot Tables
+// 1.21.1	2024-10-12T15:19:11.9681202	Loot Tables
 de91ed93edf7cff4a05b1a848b4b2f455a0fbe0c data/kingdomsatwar/loot_table/blocks/magic_block.json
 9aecc216d731484fe8bd488d07718929a252f51f data/kingdomsatwar/loot_table/blocks/vitarium_block.json
 ee381920f6361cc354a05f400f988c2b8f8edbbb data/kingdomsatwar/loot_table/blocks/vitarium_button.json
@@ -6,6 +6,7 @@ ee381920f6361cc354a05f400f988c2b8f8edbbb data/kingdomsatwar/loot_table/blocks/vi
 d2a8db7c92ac26d6ccbfb4f4da82a07a494ba5ec data/kingdomsatwar/loot_table/blocks/vitarium_door.json
 80e073738ac3755c1b25c53c821faa6d50dd15e2 data/kingdomsatwar/loot_table/blocks/vitarium_fence.json
 459bca16f951613324d19ca5c33ef91c85037982 data/kingdomsatwar/loot_table/blocks/vitarium_fence_gate.json
+bb7b1ecad75856c318e935a05fc44182a30dfe29 data/kingdomsatwar/loot_table/blocks/vitarium_lamp.json
 c9a3e636b9055f591a4114330aaa1e7932788633 data/kingdomsatwar/loot_table/blocks/vitarium_ore.json
 11b4c28666e6ff0b1f60d7e03f7e80b79091c59f data/kingdomsatwar/loot_table/blocks/vitarium_pressure_plate.json
 126e1ed5f28c75c064a33d16640139457382be7e data/kingdomsatwar/loot_table/blocks/vitarium_slab.json

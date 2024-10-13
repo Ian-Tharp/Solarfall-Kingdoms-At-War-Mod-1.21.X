@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-12T10:56:32.2434843	Block States: kingdomsatwar
+// 1.21.1	2024-10-12T15:19:11.9651198	Block States: kingdomsatwar
 4d3448807573d8ab4d795f67c73d7208a0dfbec0 assets/kingdomsatwar/blockstates/magic_block.json
 2a5fb6f7e73fa9c0c8bbcf18a651133a58721420 assets/kingdomsatwar/blockstates/vitarium_block.json
 74a0f85c4231f0c7b572f6b96ac00a1d98751bc5 assets/kingdomsatwar/blockstates/vitarium_button.json
@@ -6,6 +6,7 @@
 86b2046a4a02b6aecc42730425d308d3de8dac03 assets/kingdomsatwar/blockstates/vitarium_door.json
 b3fb3737d549c90903cc21572e10721be4e26330 assets/kingdomsatwar/blockstates/vitarium_fence.json
 309614a5137545bd3ae5ec2916f7b2f672e52ae5 assets/kingdomsatwar/blockstates/vitarium_fence_gate.json
+d48438d4f550bd71e4929107ea846fc8c41589e1 assets/kingdomsatwar/blockstates/vitarium_lamp.json
 8d56a541da5562674062da1c823c66fa99d48d77 assets/kingdomsatwar/blockstates/vitarium_ore.json
 bcc9b69877b24675b81291c1107b3e030cd08a5c assets/kingdomsatwar/blockstates/vitarium_pressure_plate.json
 3538d24cac932d4157152446e369802aee037380 assets/kingdomsatwar/blockstates/vitarium_slab.json
@@ -31,6 +32,8 @@ e842ae1be8b70dd4126dfda93a9ab1fcf85fb9e1 assets/kingdomsatwar/models/block/vitar
 4088af3aef4d1fa75ab5291cf8f7ed91af46576b assets/kingdomsatwar/models/block/vitarium_fence_gate_wall_open.json
 d7cd62a67d43d744c8fd2bbd6de6ed53879cedfb assets/kingdomsatwar/models/block/vitarium_fence_post.json
 2b03ad81b12b32d136c585f5745ab8838073224a assets/kingdomsatwar/models/block/vitarium_fence_side.json
+50dc8f81278392a67b3a7a2b78728917bbfdf08f assets/kingdomsatwar/models/block/vitarium_lamp_off.json
+3cc0435bce5f96bcc83530bbec776e9006b74f2d assets/kingdomsatwar/models/block/vitarium_lamp_on.json
 41d27a294e40f796e34fcdf58609d721f97c9987 assets/kingdomsatwar/models/block/vitarium_ore.json
 2093fc12a5f9858737df6e670b9bfa505aa4ac79 assets/kingdomsatwar/models/block/vitarium_pressure_plate.json
 e25b0a074c78b36a97ae9172abe03340317be265 assets/kingdomsatwar/models/block/vitarium_pressure_plate_down.json
@@ -49,6 +52,7 @@ c686b62607f6122a516b2edc151e51dce0743909 assets/kingdomsatwar/models/block/vitar
 4ecaf9db4b103fa7ea22d8ce3eb577bf89fa5ca7 assets/kingdomsatwar/models/item/vitarium_block.json
 120247747289cc600a22903813f30bf2a2e27d20 assets/kingdomsatwar/models/item/vitarium_deepslate_ore.json
 3cbde286e921952b4c1442dda423f4a82c194184 assets/kingdomsatwar/models/item/vitarium_fence_gate.json
+42f954aabc460d01d340f1999cfb32398a585fa6 assets/kingdomsatwar/models/item/vitarium_lamp.json
 af9a2263565c283aa4274e0f7ba5bda5edb4aa87 assets/kingdomsatwar/models/item/vitarium_ore.json
 a3ac9958066aa6c4a060112c2c166f151da68a39 assets/kingdomsatwar/models/item/vitarium_pressure_plate.json
 8af5aa0a67a3cb5c296e0958920c02310a65bc8a assets/kingdomsatwar/models/item/vitarium_slab.json

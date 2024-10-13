@@ -56,6 +56,8 @@ public class ModCreativeModTabs {
 
                 output.accept(ModBlocks.VITARIUM_BUTTON);
                 output.accept(ModBlocks.VITARIUM_PRESSURE_PLATE);
+
+                output.accept(ModBlocks.VITARIUM_LAMP);
             })
         .build()
     );

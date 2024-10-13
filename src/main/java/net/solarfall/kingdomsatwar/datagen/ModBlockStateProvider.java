@@ -1,11 +1,14 @@
 package net.solarfall.kingdomsatwar.datagen;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.solarfall.kingdomsatwar.KingdomsAtWar;
 import net.solarfall.kingdomsatwar.block.ModBlocks;
+import net.solarfall.kingdomsatwar.block.custom.VitariumLampBlock;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 
 public class ModBlockStateProvider extends BlockStateProvider {
@@ -38,6 +41,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.VITARIUM_FENCE_GATE);
         blockItem(ModBlocks.VITARIUM_TRAPDOOR, "_bottom");
 
+        customLamp();
+
     }
     
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
@@ -50,5 +55,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockItem(DeferredBlock<?> deferredBlock, String appendix) {
         simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("kingdomsatwar:block/" + deferredBlock.getId().getPath() + appendix));
+    }
+
+    // Extend later for other lamps
+    private void customLamp() {
+        getVariantBuilder(ModBlocks.VITARIUM_LAMP.get()).forAllStates(state -> {
+            if (state.getValue(VitariumLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("vitarium_lamp_on",
+                    ResourceLocation.fromNamespaceAndPath(KingdomsAtWar.MOD_ID, "block/" + "vitarium_lamp_on")))};
+            }
+            else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("vitarium_lamp_off",
+                    ResourceLocation.fromNamespaceAndPath(KingdomsAtWar.MOD_ID, "block/" + "vitarium_lamp_off")))};
+            }
+        });
+        simpleBlockItem(ModBlocks.VITARIUM_LAMP.get(), models().cubeAll("vitarium_lamp_on",
+            ResourceLocation.fromNamespaceAndPath(KingdomsAtWar.MOD_ID, "block/" + "vitarium_lamp_on")));
     }
 }

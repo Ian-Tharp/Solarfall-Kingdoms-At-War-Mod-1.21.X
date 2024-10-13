@@ -51,6 +51,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.VITARIUM_SLAB.get(),
             block -> createSlabItemTable(ModBlocks.VITARIUM_SLAB.get()));
 
+        dropSelf(ModBlocks.VITARIUM_LAMP.get());
+
     }
 
 

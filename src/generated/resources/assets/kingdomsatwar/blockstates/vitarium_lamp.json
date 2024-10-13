@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "kingdomsatwar:block/vitarium_lamp_off"
+    },
+    "clicked=true": {
+      "model": "kingdomsatwar:block/vitarium_lamp_on"
+    }
+  }
+}
